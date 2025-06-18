@@ -1,0 +1,64 @@
+/* File: style.css */
+
+/* Apply a fancy transparency look to the home page background */
+body {
+    background: linear-gradient(135deg, #2F3C7E 0%, #FBEAEB 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff; /* Optional: Adjust text color for better readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* center buttons horizontally */
+    gap: 20px; /* space between buttons */
+    margin-top: 20px; /* some spacing below profile */
+  }  
+
+/* Style for buttons with more circular corners */
+button {
+    background-color: #2F3C7E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Makes the corners more circular */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FBEAEB;
+    color: #2F3C7E;
+}
+.profile {
+    display: flex;
+    justify-content: center; /* Center the whole profile block */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007aff;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    font-style: italic;
+    color: white;
+}
+
+  
